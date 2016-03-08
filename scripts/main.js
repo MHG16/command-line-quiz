@@ -1,6 +1,6 @@
 
 var currentQuestion = 0;
-var totalQuestions = 10;
+var totalQuestions = 15;
 var answeredCorrect = 0;
 var percentCorrect = 0; 
 
@@ -77,10 +77,40 @@ while (currentQuestion < totalQuestions) {
 	}	
 	currentQuestion += 1;
 
+	var answer = prompt('What feature of Sass allows us to logically chunk code to make it more readable?');
+	if (answer === 'nesting') {
+		answeredCorrect += 1;  
+	
+	}	
+	currentQuestion += 1;
 
+	var answer = prompt('Are true and false Booleans?');
+	if (answer === 'yes') {
+		answeredCorrect += 1;  
+	
+	}	
+	currentQuestion += 1;
 
+	var answer = prompt('Does Nan have a truthy value ?');
+	if (answer === 'no') {
+		answeredCorrect += 1;  
+	
+	}	
+	currentQuestion += 1;
 
+	var answer = prompt('How does JavaScript represent Boolean and ?');
+	if (answer ='&&') {
+		answeredCorrect += 1;  
+	
+	}	
+	currentQuestion += 1;
 
+	var answer = prompt('Is #picture an example of a class ?');
+	if (answer === 'no') {
+		answeredCorrect += 1;  
+	
+	}	
+	currentQuestion += 1;
 
 }
 
