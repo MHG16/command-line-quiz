@@ -5,8 +5,6 @@ var answeredCorrect = 0;
 var percentCorrect = 0; 
 
 
-while (currentQuestion < totalQuestions) {
-
 	var answer = prompt('What does HTML stand for?');
 	if (answer === 'hypertext markup language') {
 		answeredCorrect += 1;  
@@ -112,7 +110,6 @@ while (currentQuestion < totalQuestions) {
 	}	
 	currentQuestion += 1;
 
-}
 
 percentCorrect = (answeredCorrect / totalQuestions) * 100 ;
 
