@@ -5,30 +5,33 @@ var answeredCorrect = 0;
 var percentCorrect = 0; 
 
 
-	var answer = prompt('What does HTML stand for?');
+	console.log('What does HTML stand for?');
+	var answer = prompt();
 	var correct = 'hypertext markup language';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	} else {
-		alert('That is incorrect. The correct answer is: '+correct);	
+		console.log('That is incorrect. The correct answer is: '+correct);	
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('What is a <p> tag used for?');
+	console.log('What is a <p> tag used for?');
+	var answer = prompt();
 	var correct = 'paragraph';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1; 
 
-	var answer = prompt('What comes first on your html page? Is it <!DOCTYPE = html>?');
+	console.log('What comes first on your html page? Is it <!DOCTYPE = html>?');
+	var answer = prompt();
 	var correct = 'yes';
 	if (answer === correct) {
 		alert('That is correct!');
@@ -40,146 +43,158 @@ var percentCorrect = 0;
 
 	currentQuestion += 1;
 
-	var answer = prompt('What is the space between two boxes?');
+	console.log('What is the space between two boxes?');
+	var answer = prompt();
 	var correct = 'margin';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('How do you center a text element? Is it text-align: center; ?');
+	console.log('How do you center a text element? Is it text-align: center; ?');
+	var answer = prompt();
 	var correct = 'yes';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('Is parseInt() used to convert a string to a number?');
+	console.log('Is parseInt() used to convert a string to a number?');
+	var answer = prompt();
 	var correct = 'no';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('Does the content in a Block DIV fill its container?');
+	console.log('Does the content in a Block DIV fill its container?');
+	var answer = prompt();
 	var correct = 'yes';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('What it the tag for list item ?');
+	console.log('What it the tag for list item ?');
+	var answer = prompt();
 	var correct = '<li>';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('How do you get rid of the underline on a link?');
+	console.log('How do you get rid of the underline on a link?');
+	var answer = prompt();
 	var correct = 'text-decoration: none';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('What do we use to apply different css rules depending on different screen sizes?');
+	console.log('What do we use to apply different css rules depending on different screen sizes?');
+	var answer = prompt();
 	var correct = 'media queries';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('What feature of Sass allows us to logically chunk code to make it more readable?');
+	console.log('What feature of Sass allows us to logically chunk code to make it more readable?');
+	var answer = prompt();
 	var correct = 'nesting';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('Are true and false Booleans?');
+	console.log('Are true and false Booleans?');
+	var answer = prompt();
 	var correct = 'yes';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('Does Nan have a truthy value ?');
+	console.log('Does NaN have a truthy value ?');
+	var answer = prompt();
 	var correct = 'no';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('How does JavaScript represent Boolean and ?');
+	console.log('How does JavaScript represent Boolean and ?');
+	var answer = prompt();
 	var correct = '&&';
 	if (answer = correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {	
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
 
-	var answer = prompt('Is #picture an example of a css class ?');
+	console.log('Is #picture an example of a css class ?');
+	answer = prompt();
 	var correct = 'no';
 	if (answer === correct) {
 		alert('That is correct!');
 		answeredCorrect += 1;  
 	
 	} else {
-	alert('That is incorrect. The correct answer is: '+correct);
+	console.log('That is incorrect. The correct answer is: '+correct);
 	}
 
 	currentQuestion += 1;
